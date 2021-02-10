@@ -8,3 +8,4 @@ all:
           ansible_host: 206.189.176.237
         server2:
           ansible_host: 157.230.229.198
+          
