@@ -1,6 +1,10 @@
 ---
 all:  
-hosts:  
-children:    
-dev:      
-hosts:
+  hosts:  
+  children:    
+    prod:      
+      hosts:
+        server1:
+          ansible_host: 167.99.234.165
+        server2:
+          ansible_host: 157.230.230.57
